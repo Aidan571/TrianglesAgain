@@ -8,5 +8,8 @@ public class TriangleTester{
   System.out.println(t1.classify());
   System.out.println(t2.classify());
   System.out.println(t3.classify());
+  System.out.println(t1.toString());
+  System.out.println(t2.toString());
+  System.out.println(t3.toString());
   }
 }
