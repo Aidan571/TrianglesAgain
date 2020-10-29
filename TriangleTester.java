@@ -11,5 +11,8 @@ public class TriangleTester{
   System.out.println(t1.toString());
   System.out.println(t2.toString());
   System.out.println(t3.toString());
+  Point p1 = new Point(2,3);
+  t3.setVertex(2,p1);
+  System.out.println(t3.toString());
   }
 }
